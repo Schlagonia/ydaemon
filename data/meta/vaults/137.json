@@ -1,9 +1,9 @@
 {
-	"lastUpdate": "2023-12-07T10:58:53.80305+01:00",
+	"lastUpdate": "2023-12-20T18:21:13.953177+01:00",
 	"version": {
 		"major": 0,
 		"minor": 2,
-		"patch": 5
+		"patch": 7
 	},
 	"shouldRefresh": false,
 	"vaults": {
@@ -20,10 +20,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1000727031784472221",
-			"lastTotalAssets": "526973328209054473596",
+			"lastPricePerShare": "1001034434161410199",
+			"lastTotalAssets": "512173518877760104361",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x12c3ad898e8eb1c0ec0bb74f9748f36c46593f68",
@@ -56,10 +57,11 @@
 				"0x2a42a69f48efffdf2d4fb079af60d98d3e34d49c",
 				"0x6ed737ef2ef74e04005dc9810366de5ad38cf7d6"
 			],
-			"lastPricePerShare": "1001470573884313594",
-			"lastTotalAssets": "3057578203055268262161",
+			"lastPricePerShare": "1003065419003567968",
+			"lastTotalAssets": "3061159172127808489629",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x28f53ba70e5c8ce8d03b1fad41e9df11bb646c36",
@@ -87,10 +89,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1000590393579270642",
-			"lastTotalAssets": "1320017939678102922743",
+			"lastPricePerShare": "1001538110663925096",
+			"lastTotalAssets": "1321360159807182779220",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x2a42a69f48efffdf2d4fb079af60d98d3e34d49c",
@@ -118,10 +121,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1000000",
-			"lastTotalAssets": "0",
+			"lastPricePerShare": "1000971",
+			"lastTotalAssets": "563824702",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x2c5d0c3db75d2f8a4957c74be09194a9271cf28d",
@@ -132,9 +136,9 @@
 				"isPool": false,
 				"stability": ""
 			},
-			"displayName": "",
-			"displaySymbol": "",
-			"description": ""
+			"displayName": "Stargate USDT Staker",
+			"displaySymbol": "ysUSDT",
+			"description": "Supplies {{token}} to the corresponding [Stargate](https://stargate.finance/) pool and stakes the LP token to earn STG. Earned tokens are harvested, sold for more {{token}} which is deposited back into the strategy."
 		},
 		"0x305f25377d0a39091e99b975558b1bdfc3975654": {
 			"address": "0x305f25377d0a39091e99b975558b1bdfc3975654",
@@ -154,10 +158,11 @@
 				"0x5136c2f7ab13e202ed42bc1ae82dd63475919653",
 				"0x7486325a843590b84c98563c6962c58655569eca"
 			],
-			"lastPricePerShare": "1001071214164920543",
-			"lastTotalAssets": "1707704175295952771",
+			"lastPricePerShare": "1001629557665174862",
+			"lastTotalAssets": "1711635043529315521",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x305f25377d0a39091e99b975558b1bdfc3975654",
@@ -185,10 +190,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1000000",
-			"lastTotalAssets": "0",
+			"lastPricePerShare": "1002569",
+			"lastTotalAssets": "2506762108",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x3bd8c987286d8ad00c05fdb2ae3e8c9a0f054734",
@@ -199,9 +205,9 @@
 				"isPool": false,
 				"stability": ""
 			},
-			"displayName": "",
-			"displaySymbol": "",
-			"description": ""
+			"displayName": "Aave V3 USDT Lender",
+			"displaySymbol": "ysUSDT",
+			"description": "Supplies {{token}} to [Aave V3](https://app.aave.com/) to generate interest and earn any applicable rewards. Earned tokens are harvested, sold for more {{token}} which is deposited back into the strategy."
 		},
 		"0x5136c2f7ab13e202ed42bc1ae82dd63475919653": {
 			"address": "0x5136c2f7ab13e202ed42bc1ae82dd63475919653",
@@ -216,10 +222,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1000624771400354059",
-			"lastTotalAssets": "757880117178307766",
+			"lastPricePerShare": "1001593431244874075",
+			"lastTotalAssets": "1538439699332802579",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x5136c2f7ab13e202ed42bc1ae82dd63475919653",
@@ -247,10 +254,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1006903348441582543",
-			"lastTotalAssets": "122288046872608937946357",
+			"lastPricePerShare": "1009678276066484144",
+			"lastTotalAssets": "171542006630323440282757",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x6ed737ef2ef74e04005dc9810366de5ad38cf7d6",
@@ -278,10 +286,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1002094371132332103",
-			"lastTotalAssets": "2571072645183525389",
+			"lastPricePerShare": "1003243227087523020",
+			"lastTotalAssets": "2013206638113098199",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x7486325a843590b84c98563c6962c58655569eca",
@@ -313,6 +322,7 @@
 			"lastTotalAssets": "0",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0x8bba7afd0f9b1b664c161ec31d812a8ec15f7e1a",
@@ -323,9 +333,9 @@
 				"isPool": false,
 				"stability": ""
 			},
-			"displayName": "",
-			"displaySymbol": "",
-			"description": ""
+			"displayName": "Stargate USDC Staker",
+			"displaySymbol": "ysUSDC",
+			"description": "Supplies {{token}} to the corresponding [Stargate](https://stargate.finance/) pool and stakes the LP token to earn STG. Earned tokens are harvested, sold for more {{token}} which is deposited back into the strategy."
 		},
 		"0xa013fbd4b711f9ded6fb09c1c0d358e2fbc2eaa0": {
 			"address": "0xa013fbd4b711f9ded6fb09c1c0d358e2fbc2eaa0",
@@ -345,10 +355,11 @@
 				"0xb1403908f772e4374bb151f7c67e88761a0eb4f1",
 				"0x8bba7afd0f9b1b664c161ec31d812a8ec15f7e1a"
 			],
-			"lastPricePerShare": "1005253",
-			"lastTotalAssets": "10231949270",
+			"lastPricePerShare": "1007656",
+			"lastTotalAssets": "23125145009",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0xa013fbd4b711f9ded6fb09c1c0d358e2fbc2eaa0",
@@ -376,10 +387,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1007350",
-			"lastTotalAssets": "5252979289",
+			"lastPricePerShare": "1010534",
+			"lastTotalAssets": "12939173239",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0xb1403908f772e4374bb151f7c67e88761a0eb4f1",
@@ -411,10 +423,11 @@
 				"0x3bd8c987286d8ad00c05fdb2ae3e8c9a0f054734",
 				"0x2c5d0c3db75d2f8a4957c74be09194a9271cf28d"
 			],
-			"lastPricePerShare": "1000000",
-			"lastTotalAssets": "0",
+			"lastPricePerShare": "1001721",
+			"lastTotalAssets": "3068799343",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0xbb287e6017d3deb0e2e65061e8684eab21060123",
@@ -425,9 +438,9 @@
 				"isPool": false,
 				"stability": ""
 			},
-			"displayName": "",
-			"displaySymbol": "",
-			"description": ""
+			"displayName": "USDT-A",
+			"displaySymbol": "yvUSDt-A",
+			"description": "Multi strategy USDT vault. \u003cbr/\u003e\u003cbr/\u003eMulti strategy vaults are (wait for it) vaults that contain multiple strategies. Multi strategy vaults give the vault creator flexibility to balance risk and opportunity across multiple different strategies."
 		},
 		"0xbeda9a5300393e00229dc15cc54d5185e7646c56": {
 			"address": "0xbeda9a5300393e00229dc15cc54d5185e7646c56",
@@ -442,10 +455,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1000284700767190004",
-			"lastTotalAssets": "420349729856112332",
+			"lastPricePerShare": "1000618203852049771",
+			"lastTotalAssets": "170920945571405373",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0xbeda9a5300393e00229dc15cc54d5185e7646c56",
@@ -473,10 +487,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1008611",
-			"lastTotalAssets": "5081913813",
+			"lastPricePerShare": "1011799",
+			"lastTotalAssets": "10489089449",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0xdb92b89ca415c0dab40dc96e99fc411c08f20780",
@@ -504,10 +519,11 @@
 			"managementFee": 0,
 			"emergencyShutdown": false,
 			"lastActiveStrategies": [],
-			"lastPricePerShare": "1000000000000000000",
-			"lastTotalAssets": "0",
+			"lastPricePerShare": "1002690878783834043",
+			"lastTotalAssets": "1613663083633803085645",
 			"isRetired": false,
 			"isHidden": false,
+			"isAggregator": false,
 			"migration": {
 				"available": false,
 				"target": "0xf4f9d5697341b4c9b0cc8151413e05a90f7dc24f",
@@ -518,9 +534,9 @@
 				"isPool": false,
 				"stability": ""
 			},
-			"displayName": "",
-			"displaySymbol": "",
-			"description": ""
+			"displayName": "Aave V3 DAI Lender",
+			"displaySymbol": "ysDAI",
+			"description": "Supplies {{token}} to [Aave V3](https://app.aave.com/) to generate interest and earn any applicable rewards. Earned tokens are harvested, sold for more {{token}} which is deposited back into the strategy."
 		}
 	}
 }
